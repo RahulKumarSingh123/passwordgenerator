@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 210, 150);
+    color: rgb(4, 153, 103);
+    gap: 19px;
+    border: solid 2px whitesmoke;
+    border-radius: 2rem;
+}
+
+.row {
+    display: flex;
+    gap: 5px;
+    color: black;
+    font-weight: 400;
+}
+
+.row button {
+    background-color: rgb(56, 56, 228);
+    color: white;
+}
+
+#password-box {
+    width: 300px;
+    border-radius: 0.4rem;
+    border: solid white 1.5px;
+    padding: 10px;
+    font-weight: 400;
+}
